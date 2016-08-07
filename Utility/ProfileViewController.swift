@@ -6,4 +6,12 @@
 //  Copyright © 2016年 藤田勝司. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ProfileViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = UIColor.blueColor()
+    }
+}

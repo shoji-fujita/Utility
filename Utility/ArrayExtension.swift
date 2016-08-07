@@ -7,3 +7,20 @@
 //
 
 import Foundation
+//
+//extension Array {
+//    
+//    func splitDay(dates: [NSDate]) -> [[NSDate]] {
+//        date.yyyy = ""
+//        
+//        let previousDay = "yyyymmdd"
+//        for date in dates {
+//            nowDay = data.toYYYYMMDD
+//        }
+//    }
+//}
+//
+//extension NSDate {
+//    
+//    func spilt
+//}

@@ -6,4 +6,13 @@
 //  Copyright © 2016年 藤田勝司. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class MessageSideView: UIView {
+    @IBOutlet weak var isReadLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    class func view() -> MessageSideView {
+        return UINib(nibName: "MessageSideView", bundle: nil).instantiateWithOwner(self, options: nil).first as! MessageSideView
+    }
+}
