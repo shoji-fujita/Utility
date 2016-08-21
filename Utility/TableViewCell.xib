@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="207" id="m8y-5x-Qsr" customClass="TableViewCell" customModule="Utility" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="207"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m8y-5x-Qsr" id="LSt-74-UrT">
+                <rect key="frame" x="0.0" y="0.0" width="324" height="206"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53R-kv-Ibh">
+                        <rect key="frame" x="8" y="18" width="308" height="170"/>
+                        <color key="backgroundColor" red="0.1129872586" green="0.91452047413793103" blue="0.29496679479999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="53R-kv-Ibh" secondAttribute="trailing" id="4Bb-Y6-64N"/>
+                    <constraint firstItem="53R-kv-Ibh" firstAttribute="leading" secondItem="LSt-74-UrT" secondAttribute="leadingMargin" id="Bh0-9t-Sis"/>
+                    <constraint firstItem="53R-kv-Ibh" firstAttribute="centerY" secondItem="LSt-74-UrT" secondAttribute="centerY" id="OHZ-up-2Xs"/>
+                    <constraint firstItem="53R-kv-Ibh" firstAttribute="top" secondItem="LSt-74-UrT" secondAttribute="topMargin" constant="10" id="Yak-Qp-Li9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.91452047413793103" green="0.89952585146036068" blue="0.72645975005923713" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="label" destination="53R-kv-Ibh" id="NU6-Ch-Mfe"/>
+                <outlet property="textLabel" destination="53R-kv-Ibh" id="TpV-gT-knY"/>
+            </connections>
+            <point key="canvasLocation" x="467" y="229.5"/>
+        </tableViewCell>
+    </objects>
+</document>

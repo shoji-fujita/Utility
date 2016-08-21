@@ -15,7 +15,7 @@ extension UIView {
     }
     
     func y() -> CGFloat {
-        return frame.origin.x
+        return frame.origin.y
     }
     
     func height() -> CGFloat {

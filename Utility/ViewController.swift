@@ -18,7 +18,13 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        let vc = MessagesViewController()
+//        let vc = MessagesViewController()
+//        let vc = TableCollectionViewController.view()
+        let vc = TableViewController.view()
         self.presentViewController(vc, animated: true, completion: nil)
     }
+}
+
+func showMessagesViewController() {
+    
 }

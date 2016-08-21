@@ -21,18 +21,6 @@ class MessageItem: NSObject {
     }
 }
 
-//class MessageItems: NSObject {
-//    
-//    func addMessage(message: JSQMessage) -> [[JSQMessage]] {
-//        
-//    }
-//    
-//    override init() {
-//        let messageItem = MessageItem(JSQMessage(senderId: "", senderDisplayName: "", date: NSDate(), text: "あいうえお"), isRead: false)
-//        messageItem.jsp
-//    }
-//}
-
 class MessagesViewController: JSQMessagesViewController {
     var messages: [[MessageItem]] =  [[]]
     var yourBubble: JSQMessagesBubbleImage?
@@ -48,10 +36,6 @@ class MessagesViewController: JSQMessagesViewController {
     let yourID = "yourID"
     let myDisplayName = "myName"
     let yourDisplayName = "yourName"
-    
-    class func view() -> MessagesViewController {
-        return UIStoryboard(name: "JSQMessagesViewController", bundle: nil).instantiateInitialViewController() as!MessagesViewController
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -255,11 +239,3 @@ extension MessagesViewController: UIImagePickerControllerDelegate, UINavigationC
     }
     
 }
-
-
-
-
-
-
-
-
